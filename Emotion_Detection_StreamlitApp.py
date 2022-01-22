@@ -13,8 +13,8 @@ from streamlit_webrtc import VideoTransformerBase, webrtc_streamer
 
 
 # importing the necessary files
-faceCascade = cv2.CascadeClassifier('C:/Users/Dell/Desktop/Deeplearning_Project/haarcascade_frontalface_default.xml')
-model =load_model('C:/Users/Dell/Desktop/Capstone 5 Emotion Detection/emotion detection model.h5')
+faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+model =load_model('emotion detection model.h5')
 
 emotion_labels = ['Angry','Fear','Happy','Neutral']
 
