@@ -130,7 +130,7 @@ def main():
             else:
                 st.warning("No image uploaded yet")
         except Exception:
-            st.error('Cannot process this file...Please upload a new image.')
+            pass
 
 # calling main function
 main()
